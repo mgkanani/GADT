@@ -39,5 +39,7 @@ exp2=eval (add (N 10) (S "1"))
 --exp3 = [(S "hi"),(N 10)]
 
 {-
-This example illustrates the use of GADT. If we have ADT instead of GADT then we have to write the code for handling ill-expressions in every definition of above functions. Use of ADT instead of GADT will have reduced the readability of our code and also have introduced the runtime overhead. Without GADT, we can not take the advantage of Haskell's static-type checking in Generic Programming.
+This example illustrates the use of GADT. If we have ADT instead of GADT then we have to write the code for handling ill-expressions in every definition of above functions.
+Use of ADT instead of GADT will have reduced the readability of our code and also have introduced the runtime overhead.
+Without GADT, we can not take the advantage of Haskell's static-type checking in Generic Programming.
 -}
